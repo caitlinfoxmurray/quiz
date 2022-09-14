@@ -32,6 +32,7 @@ font-size: 4.8rem;
     max-width: 85rem;
     margin: 0 auto;
     padding: 1rem;
+    box-sizing: border-box;
 }
 
 .flex-column {
