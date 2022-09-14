@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 head , body {
-    background-color: rgba(26, 114, 237, 0.847);
+    background-color: black;
 }
 
 * {
     box-sizing: border-box;
     padding: 0;
-    font: 65%;
+    font: 85%;
+    font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     padding: 0%;
 }
@@ -25,7 +26,7 @@ font-size: 4.8rem;
 
 #home {
     background-image: url("pexels-jeremy-bishop-2422915.jpg");
-    size: flex;
+    width: 80%;
 }
 
 .container {
@@ -63,5 +64,6 @@ font-size: 4.8rem;
 }
 
 .button {
-    background-color: aliceblue;
+    background-color: navy;
+    color: beige;
 }
