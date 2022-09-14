@@ -64,10 +64,16 @@ font-size: 4.8rem;
 }
 
 .button {
-    background-color: rgb(205, 245, 270);
-    color: grey;
+    background-color: transparent;
+    color: beige;
     border: 2cm;
     display: flex;
     border-radius: 10px;
     padding: 10px;
+    position: flex;
+}
+
+.button:hover {
+    background-color: grey;
+    transition: 0.7s;
 }
