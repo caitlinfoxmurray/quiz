@@ -26,9 +26,27 @@ font-size: large;
 }
 
 .choice-prefix {
-
+    padding: 1.5rem;
 }
 
 .option-text {
-    
+    padding: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .answer-choice {
+      display: flex;
+      width: 100%;
+    }
+
+    .answer {
+        background: linear-gradient();
+    }
+
+    .right { 
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    }
+    
+    .wrong {
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(26, 232, 247));
+    }
