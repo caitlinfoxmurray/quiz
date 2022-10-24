@@ -1,10 +1,8 @@
-body {
-    background-color: navy;
-}
 .first-item {
 display: flex;
-width: auto;
+width: 100%;
 font-size: large;
+border-radius: 5px;
 }
 
 #question {
