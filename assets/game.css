@@ -52,3 +52,4 @@ font-size: large;
     .wrong {
         background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(26, 232, 247));
     }
+}
