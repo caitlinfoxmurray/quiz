@@ -28,7 +28,7 @@ font-size: 4.8rem;
 }
 
 #home {
-    background-image: url("pexels-jeremy-bishop-2422915.jpg");
+    background-image: url(../assets/pexels-jeremy-bishop-2422915.jpg);
     width: 80%;
 }
 

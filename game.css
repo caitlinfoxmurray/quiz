@@ -5,6 +5,10 @@ font-size: large;
 border-radius: 5px;
 }
 
+.container {
+    background-color: peachpuff;
+}
+
 #question {
     display: flex;
     width: 100%;
@@ -12,17 +16,17 @@ border-radius: 5px;
 }
 
 .answer-choice {
-    display: flex;
-    width: 100%;
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    display: inline-flex;
+    width: 90%;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
     background-color: burlywood;
 }
 
 .answer-choice:hover {
     cursor: pointer;
     transition: 120ms;
-    box-shadow: 4px 10px 0 blue;
+    box-shadow: 4px 10px 0 palevioletred;
 }
 
 .choice-prefix {
